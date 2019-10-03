@@ -4,6 +4,7 @@ namespace TailSpin.SpaceGame.Web.Models
 {
     public class Score : Model
     {
+        // Adding a second comment for testing
         // The ID of the player profile associated with this score.
         [JsonProperty(PropertyName = "profileId")]
         public string ProfileId { get; set; }
